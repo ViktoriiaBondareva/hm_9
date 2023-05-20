@@ -1,0 +1,43 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    font-size: var(--main-font-size);
+    background: var(--main-background);
+    color: var(--main-color-text);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.form {
+    max-width: 600px;
+    background: linear-gradient(5deg, #61aaa6, #49c8d3e0);
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 1px 5px 13px 4px #426b6d;
+}
+
+.btn {
+    width: 80%;
+    min-width: 100px;
+    padding: 10px 0;
+}
+
+div {
+    padding: 10px;
+}
+
+input [type="text"] {
+}
+
